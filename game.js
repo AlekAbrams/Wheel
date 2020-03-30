@@ -7,7 +7,7 @@ var gameOptions = {
     slices: 8,
 
     // prize names, starting from 12 o'clock going clockwise
-    slicePrizes: ["A KEY!!!", "50 STARS", "500 STARS", "BAD LUCK!!!", "200 STARS", "100 STARS", "150 STARS", "BAD LUCK!!!"],
+    slicePrizes: ["Sac a Creature", "50 STARS", "500 STARS", "BAD LUCK!!!", "200 STARS", "100 STARS", "150 STARS", "BAD LUCK!!!"],
 
     // wheel rotation duration, in milliseconds
     rotationTime: 3000
