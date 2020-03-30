@@ -7,7 +7,15 @@ var gameOptions = {
     slices: 8,
 
     // prize names, starting from 12 o'clock going clockwise
-    slicePrizes: ["Sac a Creature", "Discard 2 Cards", "Sac 2 Lands", "Steal a Permanent", "Minslaver for one turn", "lose 15 life", "Wheel to 3 cards", "lose 5 life and spin again"],
+    slicePrizes: [
+			"Sac a Creature",
+			"Discard 2 Cards",
+			"Sac 2 Lands",
+			"Steal a Permanent",
+		  "Minslaver for one turn",
+		  "lose 15 life",
+			"Wheel to 3 cards",
+			"lose 5 life and spin again"],
 
     // wheel rotation duration, in milliseconds
     rotationTime: 3000
