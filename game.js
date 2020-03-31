@@ -64,7 +64,8 @@ class playGame extends Phaser.Scene{
     preload(){
 
         // loading assets
-        this.load.image("wheel", "wheel.png");
+        //this.load.image("wheel", "wheel.png");
+				this.load.image("wheel", "runewheel.gif");
         this.load.image("pin", "pin.png");
     }
 
