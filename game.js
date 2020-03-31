@@ -37,7 +37,9 @@ window.onload = function() {
        height: 550,
 
        // game background color
-       backgroundColor: 0x880044,
+       backgroundColor: 0x000000,
+
+			 backgroundImage: "background.jpg",
 
        // scenes used by the game
        scene: [playGame]
@@ -65,12 +67,15 @@ class playGame extends Phaser.Scene{
 
         // loading assets
         //this.load.image("wheel", "wheel.png");
+				this.load.image("bg", "background.jpg");
 				this.load.image("wheel", "runewheel.gif");
         this.load.image("pin", "pin.png");
     }
 
     // method to be executed once the scene has been created
     create(){
+
+  			this.bg = this.add.image(game.config.width / 2, game.config.height / 2, "bg").setScale(3);
 
         // adding the wheel in the middle of the canvas
         this.wheel = this.add.sprite(game.config.width / 2, game.config.height / 2, "wheel");
